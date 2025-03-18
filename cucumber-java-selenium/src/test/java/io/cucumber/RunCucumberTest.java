@@ -13,5 +13,5 @@ import org.junit.platform.suite.api.Suite;
 @SelectPackages("io.cucumber.features")
 @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "io.cucumber")
 @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "pretty, html:target/cucumber-report/cucumber.html")
-public class RunCucumberTest {
-}
+public class RunCucumberTest{
+        }
